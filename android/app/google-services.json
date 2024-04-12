@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "298342754306",
+    "project_id": "nifty-inkwell-402121",
+    "storage_bucket": "nifty-inkwell-402121.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298342754306:android:770b1e4cae1c5e1687df1b",
+        "android_client_info": {
+          "package_name": "com.ecars_chargershare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "298342754306-57o1haevifjo88renh0794psnvsj6he6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ecars_chargershare",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "298342754306-rh2lpd8rv9lvdtohuiios57ddih4tu6e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAawYWwIDCTycVsTyRaBmeO9n_OrPco-94"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "298342754306-rh2lpd8rv9lvdtohuiios57ddih4tu6e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

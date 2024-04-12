@@ -1,0 +1,20 @@
+
+
+{
+  
+  "extends": "@tsconfig/react-native/tsconfig.json",
+   "compilerOptions": {
+       "jsx": "react",
+       "moduleResolution": "Node",
+    "baseUrl": ".",
+        "paths": {
+          "@firebase/auth": ["./node_modules/@firebase/auth/dist/index.rn.d.ts"],
+          "*": ["src/*"],
+          "tests": ["tests/*"],
+          "@components/*": ["src/components/*"],
+        },
+         "strictNullChecks": false,
+         "module": "commonjs",
+         "types": ["node", "jest"],
+     }
+}
