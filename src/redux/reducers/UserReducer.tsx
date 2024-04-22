@@ -39,7 +39,7 @@ export const updateFormAsync = createAsyncThunk(
     const { userId, formData } = updateData;
     try {
       console.log("reducer",formData);
-      const response = await fetch(`http://192.168.0.11:5000/api/v1/maps/updateprofile/${userId}`, {
+      const response = await fetch(`https://fyp-server-dh91.onrender.com/api/v1/maps/updateprofile/${userId}`, {
         method: 'PUT', 
         headers: {
           'Content-Type': 'application/json',
