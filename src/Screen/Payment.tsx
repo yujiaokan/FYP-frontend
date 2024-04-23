@@ -33,7 +33,7 @@ function Payment (route:any) {
 }, [useremail]);
   const fetchPaymentIntentClientSecret = async () => {
     const response = await fetch(
-      'http://192.168.0.11:5000/create-payment-intent',
+      'https://fyp-server-dh91.onrender.com/create-payment-intent',
       {
         method: 'POST',
         headers: {
